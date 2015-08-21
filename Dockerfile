@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.16
+FROM phusion/baseimage:0.9.17
 
 MAINTAINER Andy Grant <andy.a.grant@gmail.com>
 
@@ -8,7 +8,7 @@ RUN \
   openjdk-8-jdk \
   wget
 
-ENV LS_VERSION 1.5.3
+ENV LS_VERSION 1.5.4
 
 RUN \
   cd /tmp && \
